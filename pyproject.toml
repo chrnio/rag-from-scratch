@@ -7,7 +7,9 @@ authors = [
     { name = "Charan Vadapalli", email = "sree.saicharan.vadapalli@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pypdf>=7.1.1",
+]
 
 [project.scripts]
 rag-from-scratch = "rag_from_scratch:main"
